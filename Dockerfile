@@ -37,6 +37,10 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 # Expose ports.
 EXPOSE 3000
 
+EXPOSE 3001
+
+EXPOSE 9000
+
 RUN npm install -g pm2
 
 ADD pm2_cloud9.json /etc/pm2_cloud9.json
