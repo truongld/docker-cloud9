@@ -1,4 +1,5 @@
 # docker-cloud9
+[![](https://images.microbadger.com/badges/image/truongld/docker-cloud9.svg)](https://microbadger.com/images/truongld/docker-cloud9 "Get your own image badge on microbadger.com")
 
 - step 1: pull from repository: git clone https://github.com/truongld/docker-cloud9.git && cd docker-cloud9
 - step 2: buid docker image: docker build -t="base_cloud9" .
